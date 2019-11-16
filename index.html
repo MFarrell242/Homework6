@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row headlabel rounded">
+            <h1>Weather at your Fingertips</h1>
+        </div>
+        <div class="row">
+            <div class="col-3 border border-secondary rounded">
+                <form>
+                    <input type="text" name="City" id="inputbox">
+                    <input type="submit" value="Go" id="searchBTN">
+                </form>
+                <button class="btn btn-secondary" id="AUSbtn">Austin</button>
+                <button class="btn btn-secondary" id="NYCbtn">New York City</button>
+                <button class="btn btn-secondary" id="CGObtn">Chicago</button>
+                <button class="btn btn-secondary" id="SEAbtn">Seattle</button>
+                <button class="btn btn-secondary" id="LAbtn">Los Angeles</button>
+            </div>
+            <div class="col-8 border border-secondary rounded float-right" id="weatherBox">
+                <h3>Current Weather</h3>
+                <h4 class="d-inline" id="currentCity">Nowhere</h4>
+                <h4 class="d-inline" id="currentTime"></h4>
+                <br><br>
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="d-inline">Temperature:</h5>
+                        <h5 class="d-inline"> </h5>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="d-inline">Humidity:</h5>
+                        <h5 class="d-inline"> </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="d-inline">Wind speed:</h5>
+                        <h5 class="d-inline"> </h5>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="d-inline">UV index:</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <h4 id="futureDates"></h4>
+                        <h6 class="d-inline">Temp:</h6>
+                        <h6 class="d-inline"></h6>
+                        <br>
+                        <h6 class="d-inline">Humidity:</h6>
+                        <h6 class="d-inline"></h6>
+                    </div>
+                    <div class="card">
+                        <h4 id="futureDates"></h4>
+                        <h6 class="d-inline">Temp:</h6>
+                        <h6 class="d-inline"></h6>
+                        <br>
+                        <h6 class="d-inline">Humidity:</h6>
+                        <h6 class="d-inline"></h6>
+                    </div>
+                    <div class="card">
+                        <h4 id="futureDates"></h4>
+                        <h6 class="d-inline">Temp:</h6>
+                        <h6 class="d-inline"></h6>
+                        <br>
+                        <h6 class="d-inline">Humidity:</h6>
+                        <h6 class="d-inline"></h6>
+                    </div>
+                    <div class="card">
+                        <h4 id="futureDates"></h4>
+                        <h6 class="d-inline">Temp:</h6>
+                        <h6 class="d-inline"></h6>
+                        <br>
+                        <h6 class="d-inline">Humidity:</h6>
+                        <h6 class="d-inline"></h6>
+                    </div>
+                    <div class="card">
+                        <h4 id="futureDates"></h4>
+                        <h6 class="d-inline">Temp:</h6>
+                        <h6 class="d-inline"></h6>
+                        <br>
+                        <h6 class="d-inline">Humidity:</h6>
+                        <h6 class="d-inline"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

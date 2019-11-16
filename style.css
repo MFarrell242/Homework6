@@ -1,0 +1,28 @@
+.headlabel {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.btn-secondary {
+    width: 100%;
+    margin-top: 3px;
+}
+
+#inputbox {
+    width: 80%;
+}
+
+.row {
+    margin-top: 3px;
+}
+
+#weatherBox {
+    margin-left: 3px;
+    
+}
+
+.card {
+    width: 130px;
+    margin-left: 1%;
+    background-color: goldenrod;
+}
